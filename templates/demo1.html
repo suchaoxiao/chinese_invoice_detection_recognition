@@ -1,0 +1,43 @@
+<html>
+  <head><title>Upload File</title></head>
+  <body>
+    <form action='/invoice/ALLindex' enctype="multipart/form-data" method='post'>
+    <input type='submit' value='批量识别'/>
+    </form>
+
+
+   <h1>识别详细</h1>
+    <table border="1">
+        <tr>
+            <td>
+                key
+            </td>
+            <td>
+                切割图片
+            </td>
+            <td>
+                识别结果
+            </td>
+        </tr>
+        <tr>
+            <td></td><td><div><img  src="data:image/png;base64,{{(img_data.get('cardno_buildfile'))}}"/></div></td><td>{{log.get('cardno_machine_default')}}</td>
+        </tr>
+         <tr>
+             <td>机构代码</td><td><div><img  src="data:image/png;base64,{{(img_data.get('cardno_buildfile'))}}"/></div></td><td>{{log.get('cardno_machine_default')}}</td>
+        </tr>
+         <tr>
+             <td>发动机号码</td><td><img src="data:image/png;base64,{{(img_data.get('engineno_buildfile'))}}" /></td><td>{{log.get('engineno_machine_default')}}</td>
+        </tr>
+        <tr>
+             <td>vin号码</td><td ><img   src="data:image/png;base64,{{(img_data.get('vinno_buildfile'))}}" /></td><td>{{log.get('vinno_machine_default')}}</td>
+        </tr>
+        <tr>
+             <td>金额</td><td ><img src="data:image/png;base64,{{(img_data.get('price_buildfile'))}}" /></td><td>{{log.get('price_machine_default')}}</td>
+        </tr>
+
+    </table>
+
+
+
+  </body>
+</html>

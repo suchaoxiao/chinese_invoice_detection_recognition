@@ -1,0 +1,145 @@
+<html>
+  <head><title>Upload File</title></head>
+  <body>
+    <form action='/invoice/index' enctype="multipart/form-data" method='post'>
+    <input type='file' name='提交文件'/><br/>
+    <input type='submit' value='单张识别'/><p
+    </form>
+
+    <h1>图片</h1>
+    <table><tr>
+        <td><img src="data:image/png;base64,{{(img_data.get('src'))}}" width="600" height="400" border=0></td>
+        <td><img src="data:image/png;base64,{{(img_data.get('img_src'))}}" width="600" height="400"  border=0></td>
+    </tr></table>
+    <
+
+
+   <h1>识别详细</h1>
+    <table border="1">
+        <tr>
+            <td>
+                key
+            </td>
+            <td>
+                切割图片
+            </td>
+            <td>
+                识别结果
+            </td>
+        </tr>
+        <tr>
+            <td>图片0</td><td><div><img  src="data:image/png;base64,{{(img_data.get('buildfile_0'))}}"/></div></td><td>{{log.get('machine_default_0')}}</td>
+        </tr>
+        <tr>
+            <td>图片1</td><td><div><img  src="data:image/png;base64,{{(img_data.get('buildfile_1'))}}"/></div></td><td>{{log.get('machine_default_1')}}</td>
+        </tr>
+         <tr>
+             <td>图片2</td><td><div><img  src="data:image/png;base64,{{(img_data.get('buildfile_2'))}}"/></div></td><td>{{log.get('machine_default_2')}}</td>
+        </tr>
+         <tr>
+             <td>图片3</td><td><img src="data:image/png;base64,{{(img_data.get('buildfile_3'))}}" /></td><td>{{log.get('machine_default_3')}}</td>
+        </tr>
+        <tr>
+             <td>图片4</td><td ><img   src="data:image/png;base64,{{(img_data.get('buildfile_4'))}}" /></td><td>{{log.get('machine_default_4')}}</td>
+        </tr>
+        <tr>
+             <td>图片5</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_5'))}}" /></td><td>{{log.get('machine_default_5')}}</td>
+        </tr>
+        <tr>
+             <td>图片6</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_6'))}}" /></td><td>{{log.get('machine_default_6')}}</td>
+        </tr>
+        <tr>
+             <td>图片7</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_7'))}}" /></td><td>{{log.get('machine_default_7')}}</td>
+        </tr>
+        <tr>
+             <td>图片8</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_8'))}}" /></td><td>{{log.get('machine_default_8')}}</td>
+        </tr>
+        <tr>
+             <td>图片9</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_9'))}}" /></td><td>{{log.get('machine_default_9')}}</td>
+        </tr>
+        <tr>
+             <td>图片10</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_10'))}}" /></td><td>{{log.get('machine_default_10')}}</td>
+        </tr>
+        <tr>
+             <td>图片11</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_11'))}}" /></td><td>{{log.get('machine_default_11')}}</td>
+        </tr>
+        <tr>
+             <td>图片12</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_12'))}}" /></td><td>{{log.get('machine_default_12')}}</td>
+        </tr>
+        <tr>
+             <td>图片13</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_13'))}}" /></td><td>{{log.get('machine_default_13')}}</td>
+        </tr>
+        <tr>
+             <td>图片14</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_14'))}}" /></td><td>{{log.get('machine_default_14')}}</td>
+        </tr>
+        <tr>
+             <td>图片15</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_15'))}}" /></td><td>{{log.get('machine_default_15')}}</td>
+        </tr>
+        <tr>
+             <td>图片16</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_16'))}}" /></td><td>{{log.get('machine_default_16')}}</td>
+        </tr>
+        <tr>
+             <td>图片17</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_17'))}}" /></td><td>{{log.get('machine_default_17')}}</td>
+        </tr>
+        <tr>
+             <td>图片18</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_18'))}}" /></td><td>{{log.get('machine_default_18')}}</td>
+        </tr>
+        <tr>
+             <td>图片19</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_19'))}}" /></td><td>{{log.get('machine_default_19')}}</td>
+        </tr>
+        <tr>
+             <td>图片20</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_20'))}}" /></td><td>{{log.get('machine_default_20')}}</td>
+        </tr>
+        <tr>
+             <td>图片21</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_21'))}}" /></td><td>{{log.get('machine_default_21')}}</td>
+        </tr>
+        <tr>
+             <td>图片22</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_22'))}}" /></td><td>{{log.get('machine_default_22')}}</td>
+        </tr>
+        <tr>
+             <td>图片23</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_23'))}}" /></td><td>{{log.get('machine_default_23')}}</td>
+        </tr>
+        <tr>
+             <td>图片24</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_24'))}}" /></td><td>{{log.get('machine_default_24')}}</td>
+        </tr>
+        <tr>
+             <td>图片25</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_25'))}}" /></td><td>{{log.get('machine_default_25')}}</td>
+        </tr>
+        <tr>
+             <td>图片26</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_26'))}}" /></td><td>{{log.get('machine_default_26')}}</td>
+        </tr>
+        <tr>
+             <td>图片27</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_27'))}}" /></td><td>{{log.get('machine_default_27')}}</td>
+        </tr>
+        <tr>
+             <td>图片28</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_28'))}}" /></td><td>{{log.get('machine_default_28')}}</td>
+        </tr>
+        <tr>
+             <td>图片29</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_29'))}}" /></td><td>{{log.get('machine_default_29')}}</td>
+        </tr>
+        <tr>
+             <td>图片30</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_30'))}}" /></td><td>{{log.get('machine_default_30')}}</td>
+        </tr>
+        <tr>
+             <td>图片31</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_31'))}}" /></td><td>{{log.get('machine_default_31')}}</td>
+        </tr>
+        <tr>
+             <td>图片32</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_32'))}}" /></td><td>{{log.get('machine_default_32')}}</td>
+        </tr>
+        <tr>
+             <td>图片33</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_33'))}}" /></td><td>{{log.get('machine_default_33')}}</td>
+        </tr>
+        <tr>
+             <td>图片34</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_34'))}}" /></td><td>{{log.get('machine_default_34')}}</td>
+        </tr>
+        <tr>
+             <td>图片35</td><td ><img src="data:image/png;base64,{{(img_data.get('buildfile_35'))}}" /></td><td>{{log.get('machine_default_35')}}</td>
+        </tr>
+
+
+    </table>
+
+
+
+  </body>
+</html>
