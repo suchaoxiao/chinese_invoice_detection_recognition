@@ -5,7 +5,7 @@ A Web page that automatically detects and identifies invoices
 
 <img src="/image/2018_07_17_15_17_05.jpg" />
 <img src="/image/2018_07_17_15_17_05_1.jpg"/>
-<img src="/upload/crop_img/2018_07_17_15_17_05_1.jpg"/>
+<img src="/upload/crop_img/2018_07_17_15_17_05.jpg"/>
 
 <img src="/upload/result/12.png"/>
 
