@@ -9,9 +9,9 @@ A Web page that automatically detects and identifies invoices
 
 <img src="/upload/result/12.png"/>
 
-解码识别结果：77  1  0  0  3  4  1 2   4  5 11 3  8  6  1  3  0  0  6  1  9  2  6  5  9  5
+解码识别结果：77  1  0  0  3  4  1 2   4  5 11 3  8  6  1  3  0  0  6  1  9  2  6  5  9  5 5 3
 
-识别结果：71003412451386130061926595 
+识别结果：7100341245138613006192659553
 
 <img src="/upload/result/1.png"/>
 
