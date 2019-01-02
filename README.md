@@ -5,7 +5,9 @@ A Web page that automatically detects and identifies invoices
 
 <img src="/image/2018_07_17_15_17_05.jpg" />
 <img src="/image/2018_07_17_15_17_05_1.jpg"/>
+
 <img src="/upload/result/12.png"/>
+
 解码识别结果：77  1  0  0  3  4  1 2   4  5 11 3  8  6  1  3  0  0  6  1  9  2  6  5  9  5
 
 识别结果：71003412451386130061926595 
