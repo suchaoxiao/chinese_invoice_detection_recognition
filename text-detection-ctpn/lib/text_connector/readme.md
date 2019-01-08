@@ -1,0 +1,2 @@
+new_detectors.py 修改detectors文件中的删除文本框部分
+new_text_proposal_connector.py　修改文本框合并求ｙ值（纵坐标最大值最小值）规则
